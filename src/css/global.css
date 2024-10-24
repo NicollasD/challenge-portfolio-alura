@@ -1,0 +1,26 @@
+* {
+   margin: 0;
+   padding: 0; 
+   box-sizing: border-box; 
+   line-height: 1.4;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3, a, li {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+}
+
+p, label, span {
+    font-family: "Red Hat Text", sans-serif;
+    font-optical-sizing: auto;
+}
+

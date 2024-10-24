@@ -1,0 +1,706 @@
+@media (max-width: 1900px) {
+
+
+    .skills__content,
+    .hobbies__content {
+        gap: 1.5rem;
+    }
+
+    .skills-item,
+    .hobbies-item {
+        padding: 1.5rem 1.5rem;
+    }
+
+    .qualification__content {
+        gap: 1.5rem;
+    }
+
+    .qualification-item {
+        padding: 6rem 2rem;
+    }
+
+    .experience__content {
+        gap: 1.5rem;
+    }
+
+    .experience-item {
+        padding: 1.5rem 1.5rem;
+    }
+
+}
+
+
+@media (max-width: 1699px) {
+
+    .intro {
+        gap: 3%;
+    }
+
+    .intro__img {
+        height: auto;
+        width: 380px;
+    }
+
+    .intro__title {
+        font-size: 2.5rem;
+    }
+
+    .intro__subtitle {
+        font-size: 1.25rem;
+    }
+
+    .about-me__title,
+    .skills__title,
+    .hobbies__title,
+    .qualification__title,
+    .experience__title,
+    .contact__title {
+        font-size: 1.5rem;
+    }
+
+
+    .contact__form {
+        max-width: 65%;
+        gap: 1.5rem;
+    }
+
+    .contact__content p {
+        max-width: 65%;
+        font-size: 1rem;
+    }
+
+    .field__wrapper {
+        height: 2.5rem;
+    }
+
+    .field__wrapper label {
+        padding: 0.25rem 2rem;
+    }
+
+    .contact__field {
+        padding: 0.25rem 1rem;
+    }
+
+    .contact__field--textarea {
+        min-height: 10rem;
+    }
+}
+
+@media (max-width: 1440px) {
+    
+    .header {
+        height: 5rem;
+    }
+
+    .header__logo__img {
+        max-height: 2rem;
+    }
+
+    .intro__img {
+        height: auto;
+        width: 325px;
+    }
+
+    .intro__title {
+        font-size: 2rem;
+    }
+
+    .intro__subtitle {
+        font-size: 1.25rem;
+    }
+
+    .about-me__title,
+    .skills__title,
+    .hobbies__title,
+    .qualification__title,
+    .experience__title,
+    .contact__title {
+        font-size: 1.5rem;
+    }
+
+    .intro__links {
+        gap: 3%;
+    }
+
+
+    .intro__links a {
+        font-size: 1.125rem;
+    }
+
+    .intro__links__arrow {
+        height: 1.25rem;
+    }
+
+    .skills-item,
+    .hobbies-item {
+        height: 5rem;
+    }
+
+    .skills__item__text,
+    .hobbies__item__text {
+        font-size: 1.25rem;
+    }
+
+    .experience-item {
+        padding: 1.5rem 1.5rem;
+        gap: 1.5rem;
+    }
+    
+    .experience-item__buttons {
+        gap: 1rem;
+    }
+    
+    .experience-item__buttons-button {
+        font-size: 1rem;
+    }
+
+    .contact__content {
+        gap: 1rem;
+    }
+
+    .contact__content p {
+        max-width: 50%;
+    }
+
+    .contact__form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 60%;
+        gap: 1.5rem;
+    }
+
+    .field__wrapper {
+        height: 3rem;
+    }
+
+    .field__wrapper label {
+        padding: 0.5rem 2rem;
+        background-color: #122932;
+        color: #d3d7d9;
+        border-radius: 0.5rem 0 0 0.5rem;
+        font-size: 1rem;
+        font-weight: 500;
+        text-wrap: nowrap;
+        min-width: 20%;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .contact__field {
+        background-color: #ffffff;
+        border: none;
+        padding: 0.5rem 1rem;
+        color: #122932;
+        font-size: 1rem;
+        border-radius: 0 0.5rem 0.5rem 0;
+        font-family: "Red Hat Text", sans-serif;
+        height: 100%;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    }
+
+    input:focus {
+        outline: none;
+        border: 1px solid #3a87d7;
+        border-radius: 0 0.5rem 0.5rem 0;
+        box-sizing: border-box;
+    }
+
+    .contact__field--textarea {
+        border-radius: 0.5rem;
+        resize: none;
+        outline: none;
+        min-height: 10rem;
+        min-width: 100%;
+
+    }
+
+}
+
+@media (max-width: 1380px) {
+
+    .header {
+        height: 4rem;
+    }
+
+    .header__logo__img {
+        max-height: 1.5rem;
+    }
+
+    .intro,
+.about-me,
+.skills,
+.hobbies,
+.qualification,
+.experience,
+.contact {
+    scroll-margin-top: 3.9rem;
+}
+
+    .skills__content,
+    .hobbies__content {
+        gap: 1rem;
+    }
+
+    .qualification__content {
+        gap: 1rem;
+    }
+
+    .experience__content {
+        gap: 1rem;
+    }
+
+    .skills__item__text,
+    .hobbies__item__text {
+        font-size: 1.125rem;
+    }
+
+    .experience-item {
+        padding: 1rem 1rem;
+        gap: 1rem;
+    }
+
+    .qualification__item__text {
+        font-size: 1.25rem;
+
+        & p {
+            font-size: 1rem;
+        }
+    }
+
+    .experience__item__text {
+        font-size: 1rem;
+    }
+
+    .experience-item__buttons-button {
+        padding: 1rem;
+        text-align: center;
+        background-color: #122932;
+        border-radius: 0.5rem;
+        width: 50%;
+        color: #d3d7d9;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .contact__content {
+        gap: 1rem;
+    }
+
+    .contact__form {
+        max-width: 70%;
+        gap: 1rem;
+    }
+
+    .contact__content p {
+        max-width: 65%;
+        font-size: 1rem;
+    }
+
+    .field__wrapper {
+        height: 2rem;
+    }
+    
+    .field__wrapper label {
+        padding: 0.25rem 2rem;
+    }
+
+    .contact__field--textarea {
+        min-height: 6rem;
+    }
+
+    .contact__button {
+
+        padding: 1rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1099px) {
+
+    .header {
+        height: 4rem;
+    }
+
+    .header__content {
+        justify-content: center;
+    }
+
+    .header__logo {
+        display: flex;
+        max-height: 100%;
+        width: auto;
+        justify-content: center;
+    }
+
+    .navigation__list {
+        display: none;
+    }
+
+    .intro__img {
+        height: auto;
+        width: 152px;
+    }
+
+    .intro__content {
+        gap: 0.5rem;
+    }
+
+    .intro__title {
+        font-size: 1.25rem;
+    }
+
+    .intro__subtitle {
+        font-size: 1rem;
+    }
+
+    .about-me__title,
+    .skills__title,
+    .hobbies__title,
+    .qualification__title,
+    .experience__title,
+    .contact__title {
+        font-size: 1rem;
+    }
+
+    .about-me__text {
+        font-size: 1rem;
+    }
+
+
+    .intro__links a {
+        font-size: 1rem;
+    }
+
+    .intro__links__arrow {
+        height: 1.125rem;
+    }
+
+    .intro,
+    .about-me,
+    .skills,
+    .hobbies,
+    .qualification,
+    .experience,
+    .contact {
+        padding: 3.5% 5%;
+        scroll-margin-top: 4.9rem;
+    }
+
+    .skills__content,
+    .hobbies__content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1rem;
+        max-width: 100%;
+    }
+
+    .skills-item,
+    .hobbies-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 1.5rem 1.5rem;
+        height: 4rem;
+        align-items: center;
+        min-width: 48%;
+        max-width: 50%;
+        font-size: 1.5rem;
+
+    }
+
+    .skills-icon img,
+    .hobbies-icon img {
+        height: 2rem;
+    }
+
+    .qualification__content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .qualification-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 2rem 2rem;
+        height: auto;
+        align-items: center;
+        width: 40%;
+        font-size: 1.5rem;
+        background-color: #ffffff;
+        border-radius: 0.5rem;
+        flex-grow: 1;
+        gap: 3rem;
+    }
+
+    .qualification-icon {
+        display: flex;
+        gap: 1rem;
+
+        & hr {
+            border: solid 2px #d3d7d9;
+        }
+    }
+
+    .qualification-icon img {
+        height: 3.5rem;
+    }
+
+    .qualification__item__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        color: #122932;
+        font-size: 1.125rem;
+        font-weight: 400;
+
+        & p {
+            font-size: 1rem;
+        }
+    }
+
+    .qualification__item__text h3 {
+        text-wrap: pretty;
+        white-space: normal;
+    }
+
+    .experience__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .experience-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1rem 1rem;
+        height: auto;
+        align-items: center;
+        max-width: 100%;
+        font-size: 1.25rem;
+        background-color: #ffffff;
+        border-radius: 0.5rem;
+        flex-grow: 1;
+        gap: 1rem;
+        flex-shrink: 1;
+
+        & p {
+            font-size: 1.125rem;
+        }
+    }
+
+    .experience__item__subtitle {
+        padding-bottom: 0.5rem;
+    }
+
+    .experience-item__buttons {
+        gap: 1rem;
+    }
+
+    .contact__content {
+        gap: 1rem;
+    }
+
+    .contact__form {
+        max-width: 90%;
+        gap: 0.5rem;
+    }
+
+    .contact__content p {
+        max-width: 80%;
+        font-size: 1rem;
+    }
+
+    .field__wrapper label {
+        max-width: 20%;
+    }
+
+    .contact__field {
+        max-width: 80%;
+    }
+
+    .contact__field--textarea {
+        min-height: 8rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        height: 3rem;
+    }
+
+    .header__logo__img {
+        max-height: 1.25rem;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #d3d7d9;
+        gap: 1.5rem;
+        align-items: center;
+    }
+
+    .intro__content {
+        gap: 1.5rem;
+    }
+
+    .intro__title {
+        font-weight: 800;
+        text-wrap: pretty;
+        text-align: center;
+        font-size: 1.125rem;
+    }
+
+    .intro__subtitle {
+        font-size: 1rem;
+        font-weight: 400;
+        color: #122932;
+        line-height: 1.5;
+        hyphens: auto;
+        word-wrap: break-word;
+        text-align: justify;
+    }
+
+    .intro__links {
+        display: flex;
+        justify-content: space-around;
+        color: #122932;
+    }
+
+
+    .intro__links a {
+        display: flex;
+        align-items: center;
+        font-size: 0.85rem;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    .intro__links__arrow {
+        height: 1rem;
+    }
+
+    .intro,
+    .about-me,
+    .skills,
+    .hobbies,
+    .qualification,
+    .experience,
+    .contact {
+        padding: 5% 10%;
+        scroll-margin-top: 4.9rem;
+    }
+
+    .skills-item,
+    .hobbies-item {
+        padding: 1rem 1rem;
+        height: 3.5rem;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+
+
+    .qualification__content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .qualification-item {
+        padding: 1.5rem 1rem;
+        align-items: center;
+        width: 100%;
+        gap: 2rem;
+    }
+
+    .qualification-icon {
+        padding-top: 0.5rem;
+        gap: 0.5rem;
+    }
+
+    .qualification__item__text {
+        font-size: 1rem;
+    }
+
+    .experience-item {
+        padding: 1rem 1rem;
+        max-width: 100%;
+        gap: 1rem;
+
+        & p {
+            font-size: 1rem;
+        }
+    }
+
+    .experience__item__text {
+        font-size: 1rem;
+        font-weight: 400;
+        text-wrap: balance;
+        gap: 0.5rem;
+
+        & p {
+            font-size: 1rem;
+            text-wrap: pretty;
+            text-align: justify;
+        }
+    }
+
+    .experience-item__buttons-button {
+        padding: 0.5rem;
+        border-radius: 0.25rem;
+        font-size: 1rem;
+    }
+
+    .experience-item__buttons {
+        gap: 0.5rem;
+    }
+
+    .contact__form {
+        max-width: 100%;
+        gap: 1.5rem;
+    }
+
+    .contact__content p {
+        max-width: 100%;
+        text-wrap: pretty;
+    }
+
+    .field__wrapper label {
+        display: none;
+    }
+
+    .contact__field {
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+        max-width: 100%;
+    }
+
+    input:focus {
+        outline: none;
+        border: 1px solid #3a87d7;
+        border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    }
+
+    .contact__button {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+
+}
